@@ -21,7 +21,7 @@
             <a href="#">Inicio</a>
             <a href="#">Sobre Mí</a>
             <a href="#">Clientes</a>
-            <a href="#">Contacto</a>
+            <a href="#formulario">Contacto</a>
     
         </nav>
 
@@ -100,8 +100,39 @@
                 <p>Pellentesque odio ex, bibendum quis convallis scelerisque, eleifend vitae lectus. Quisque in erat justo.</p>
     
             </section>
-        </div>
 
+        </div> <!--cierre servicios-->
+        <section>
+            <form id="formulario" class="formulario">
+                <fieldset>
+                    <legend>Contáctanos llenando todos los campos</legend>
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <label> Nombre</label>
+                            <input class="input-text" type="text" placeholder="Tu Nombre">
+                            
+                        </div>
+                        <div class="campo">
+                            <label> Teléfono</label>
+                            <input  class="input-text"type="tel" placeholder="Tu teléfono">
+    
+                        </div>
+                        <div class="campo">
+                            <label> Correo</label>
+                            <input class="input-text" type="email" placeholder="Tu email">
+    
+                        </div>
+                        
+                        <div class="campo">
+                            <label> Mensaje</label>
+                            <textarea  class="input-text"> </textarea>
+    
+                        </div>
+
+                    </div>
+                </fieldset>
+            </form>
+        </section>
     </main>
 </body>
 </html>
